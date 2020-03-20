@@ -2,13 +2,44 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import campaignlogo from "./images/campaignlogo.png";
+import AppTabs from "./AppTabs.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <Router>
+        <div className="App">
+          <AppTabs></AppTabs>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/AboutUs">
+              <AboutUs />
+            </Route>
+            <Route exact path="/Campaign">
+              <Campaign />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </div>
+  );
+}
+
+function Home() {
+  return (
+    <div>
       <h1>Anya Montgomery for ASLMU President</h1>
       <img src={campaignlogo}></img>
+    </div>
+  );
+}
+
+function Campaign() {
+  return (
+    <div>
       <h2>Our Platform</h2>
       <p>
         We believe in our Mission: No student’s success should be hindered by
@@ -45,16 +76,27 @@ function App() {
         collaborate with departments including CSA and EIS to encourage
         campus-wide reflection on our mission, sometimes savioristic practices,
         and the ways that we can come together to improve our Lion community and
-        beyond.{" "}
+        beyond.
       </p>
       <p>With all of us together, “the Dream lives on"</p>
-      {/* <Router>
-        <div className="App">
-          <Switch>
-            <Route exact path="/" component={App}></Route>
-          </Switch>
-        </div>
-      </Router> */}
+    </div>
+  );
+}
+
+function AboutUs() {
+  return (
+    <div>
+      <h1>About Anya:</h1>
+      <p>Women’s and Gender Studies Major, African American Studies Minor</p>
+      <h1>About Taylor:</h1>
+      <p>Anti-racism Studies, Spanish Double Major</p>
+      <h2>Involvements: </h2>
+      <p>
+        ASLMU Secretary ASLMU NCAA Senator Women’s Swim Team Sursum Corda
+        Service-Org, VP of Mission and Social Justice Marians Service-Org,
+        Co-Chair of Special Events WHH Library, Circulations Manager
+        Intercultural Facilitator Program TEAM, Founder and President
+      </p>
     </div>
   );
 }
