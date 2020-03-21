@@ -1,14 +1,14 @@
 import React from "react";
-//import "./AppTabs.css";
-//import homeIcon from "./images/home.svg";
 import { NavLink } from "react-router-dom";
-
-//import url("fonts/FuturaBoldItalic.ttf")
 
 export default function AppTabs() {
   return (
     <div className="AllTabs">
-      <nav style={{ paddingTop: "15px", paddingLeft: "15px" }}>
+      <nav
+        style={{
+          paddingTop: "15px",
+          paddingLeft: "15px"
+        }}>
         <NavLink
           style={{ textDecoration: "none", color: "#f79051" }}
           className="HomeTab"
@@ -17,9 +17,10 @@ export default function AppTabs() {
           id="HomeTab"
           to="/">
           <p>
-            <font face="FuturaItalicBold">Home</font>
+            <font size="6" face="FuturaItalicBold">
+              Home
+            </font>
           </p>
-          {/* <img src={homeIcon} alt="homeIcon" width="30px" height="30px"></img> */}
         </NavLink>
         <NavLink
           style={{ textDecoration: "none", color: "#f79051" }}
@@ -27,17 +28,24 @@ export default function AppTabs() {
           id="AboutUsTab"
           to="/AboutUs">
           <p>
-            <font face="FuturaItalicBold">About Us</font>
+            <font size="6" face="FuturaItalicBold">
+              About Us
+            </font>
           </p>
         </NavLink>
         <NavLink
-          style={{ textDecoration: "none", color: "#f79051" }}
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
           activeClassName="ActiveCampaignTab"
           exact
           id="CampaignTab"
           to="/Campaign">
           <p className="CampaignText">
-            <font face="FuturaItalicBold">Campaign</font>
+            <font size="6" face="FuturaItalicBold" style={{}}>
+              Campaign
+            </font>
           </p>
         </NavLink>
       </nav>
