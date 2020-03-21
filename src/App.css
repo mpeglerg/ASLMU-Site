@@ -1,3 +1,82 @@
+@font-face {
+  font-family: "FuturaItalicBold";
+  src: url("fonts/futura/FuturaBoldItalic.ttf");
+}
+
 .App {
+  background-color: #e8f6fa;
+}
+
+.CampaignPoster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Header {
+  color: #ffffff;
+  text-shadow: 5px 3px #f79051;
+  font-size: 50px;
+}
+
+.testing {
+  display: flex;
+  flex-direction: column;
+}
+
+.AnyaHeadshot {
+  box-shadow: 25px -25px 3px 0px #f79051;
+}
+
+.AnyaTaylorHeadshot {
+  box-shadow: 25px -25px 3px 0px #f79051;
+}
+
+.PlatformTitle {
   text-align: center;
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+}
+.MissionText {
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 40%;
+}
+
+.HealingText {
+  text-align: right;
+  margin-right: 2%;
+  margin-left: 40%;
+}
+
+.CommunityText {
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 40%;
+}
+
+.SloganText {
+  text-align: center;
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+}
+
+.LogoImage {
+  margin-left: 24%;
+}
+
+.MissionTitle {
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+}
+
+.HealingTitle {
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+}
+
+.CommunityTitle {
+  color: #f79051;
+  font-family: "FuturaItalicBold";
 }
