@@ -18,7 +18,7 @@ export default function AppTabs() {
           to="/">
           <p>
             <font size="6" face="FuturaItalicBold">
-              Home
+              <a>Home </a>
             </font>
           </p>
         </NavLink>
@@ -45,6 +45,21 @@ export default function AppTabs() {
           <p className="CampaignText">
             <font size="6" face="FuturaItalicBold" style={{}}>
               Campaign
+            </font>
+          </p>
+        </NavLink>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
+          activeClassName="ActiveCampaignTab"
+          exact
+          id="EndorsementTab"
+          to="/Endorsement">
+          <p className="EndorsementText">
+            <font size="6" face="FuturaItalicBold" style={{}}>
+              Endorsements
             </font>
           </p>
         </NavLink>

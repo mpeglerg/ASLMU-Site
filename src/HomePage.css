@@ -3,4 +3,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  /* float: right; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.VoteTitle {
+  text-align: center;
 }

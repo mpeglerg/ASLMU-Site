@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./HomePage.js";
 import CampaignPage from "./CampaignPage.js";
 import AboutUsPage from "./AboutUsPage.js";
+import EndorsementPage from "./EndorsementPage.js";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route exact path="/Campaign">
               <CampaignPage />
+            </Route>
+            <Route exact path="/Endorsement">
+              <EndorsementPage />
             </Route>
           </Switch>
         </div>
