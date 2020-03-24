@@ -5,6 +5,6 @@
   margin-top: 0px;
 }
 
-a {
+a.HomeTab:hover {
   background-color: yellow;
 }

@@ -10,9 +10,7 @@ export default function HomePage() {
         src={campaignposter}
         alt="campaignposter"
         style={{ marginTop: "-15%" }}></img>
-      <h1 className="VoteTitle">
-        Vote Anya and Taylor March 26th - April 6th{" "}
-      </h1>
+      <h1 className="VoteTitle">vote Anya and Taylor March 26th - April 6th</h1>
     </div>
   );
 }

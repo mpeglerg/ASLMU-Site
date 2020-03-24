@@ -19,18 +19,27 @@ export default function AppTabs() {
           id="HomeTab"
           to="/">
           <p>
-            <font size="6" face="FuturaItalicBold">
-              <a>Home </a>
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
+              <a className="HomeTab"> Home </a>
             </font>
           </p>
         </NavLink>
         <NavLink
-          style={{ textDecoration: "none", color: "#f79051" }}
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
           activeClassName="ActiveAboutUsTab"
           id="AboutUsTab"
           to="/AboutUs">
           <p>
-            <font size="6" face="FuturaItalicBold">
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
               About Us
             </font>
           </p>
@@ -45,7 +54,10 @@ export default function AppTabs() {
           id="CampaignTab"
           to="/Campaign">
           <p className="CampaignText">
-            <font size="6" face="FuturaItalicBold" style={{}}>
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
               Campaign
             </font>
           </p>
@@ -60,7 +72,10 @@ export default function AppTabs() {
           id="EndorsementTab"
           to="/Endorsement">
           <p className="EndorsementText">
-            <font size="6" face="FuturaItalicBold" style={{}}>
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
               Endorsements
             </font>
           </p>
@@ -75,8 +90,47 @@ export default function AppTabs() {
           id="ContactUsTab"
           to="/ContactUs">
           <p className="ContactUsText">
-            <font size="6" face="FuturaItalicBold" style={{}}>
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
               Contact Us
+            </font>
+          </p>
+        </NavLink>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
+          activeClassName="ActiveGalleryTab"
+          exact
+          id="GalleryTab"
+          to="/Gallery">
+          <p className="GalleryText">
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
+              Gallery
+            </font>
+          </p>
+        </NavLink>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
+          activeClassName="ActiveInstagramTab"
+          exact
+          id="InstagramTab"
+          to="/Instagram">
+          <p className="InstagramText">
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
+              Instagram
             </font>
           </p>
         </NavLink>
