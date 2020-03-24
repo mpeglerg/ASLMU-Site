@@ -134,6 +134,24 @@ export default function AppTabs() {
             </font>
           </p>
         </NavLink>
+        {/* <NavLink
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
+          activeClassName="ActiveCOVIDTab"
+          exact
+          id="COVIDTab"
+          to="/COVID19">
+          <p className="COVIDText">
+            <font
+              size="6"
+              face="FuturaItalicBold"
+              style={{ backgroundColor: "#e8f6fa" }}>
+              COVID-19 Response
+            </font>
+          </p>
+        </NavLink> */}
       </nav>
     </div>
   );
