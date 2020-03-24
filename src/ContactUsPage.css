@@ -3,6 +3,11 @@
   src: url("fonts/futura/FuturaBoldItalic.ttf");
 }
 
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/Lato/Lato-Regular.ttf");
+}
+
 .ContactUsTitle {
   font-family: "FuturaItalicBold";
   color: #f79051;
@@ -15,6 +20,7 @@
 
 .ContactUsTextSection {
   clear: right;
+  font-family: "LatoRegular";
   margin-right: 10%;
   margin-left: 50%;
 }
@@ -25,4 +31,6 @@
   height: 60vw;
   background-color: transparent;
   float: left;
+  margin-left: 5vw;
+  margin-top: 5vw;
 }

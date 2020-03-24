@@ -7,7 +7,7 @@ export default function COVIDPage() {
   return (
     <div>
       <h1 className="CovidTitle">Our Response to COVID-19</h1>
-      <p>
+      <p className="TaylorLetter">
         Dear LMU, <br />
         In just a short couple weeks a lot has changed. As I am sitting here at
         my desk, with most of my friends packed up and gone, trying to write

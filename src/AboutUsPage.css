@@ -3,6 +3,11 @@
   src: url("fonts/futura/FuturaBoldItalic.ttf");
 }
 
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/Lato/Lato-Regular.ttf");
+}
+
 .MeetYourRepsTitle {
   font-family: "FuturaItalicBold";
   color: #f79051;
@@ -23,7 +28,7 @@
 }
 
 .AnyaTaylorHeadshot {
-  padding-top: 30%;
+  margin-top: 20%;
   border: 10px solid #f79051;
   border-radius: 4px;
   padding: 0px;
@@ -63,7 +68,6 @@
 .AboutTaylorTitle {
   font-family: "FuturaItalicBold";
   color: #f79051;
-  padding-top: 15px;
 }
 
 .InvolvementsTitle {
@@ -77,24 +81,27 @@
 
 .AnyaSectionText {
   padding-right: 10%;
+  font-family: "LatoRegular";
 }
 
 .TaylorSectionText {
   margin-right: 37%;
+  font-family: "LatoRegular";
 }
 
 .InvolvementsSection {
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 2%;
 }
 
 .TaylorInvolvements {
   float: right;
   margin-right: 10%;
+  font-family: "LatoRegular";
 }
 
 .AnyaInvolvements {
   float: left;
   margin-left: 10%;
+  font-family: "LatoRegular";
 }

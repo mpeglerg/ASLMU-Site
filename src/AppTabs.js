@@ -20,7 +20,7 @@ export default function AppTabs() {
           to="/">
           <p>
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               <a className="HomeTab"> Home </a>
@@ -37,7 +37,7 @@ export default function AppTabs() {
           to="/AboutUs">
           <p>
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               About Us
@@ -55,7 +55,7 @@ export default function AppTabs() {
           to="/Campaign">
           <p className="CampaignText">
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               Campaign
@@ -73,7 +73,7 @@ export default function AppTabs() {
           to="/Endorsement">
           <p className="EndorsementText">
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               Endorsements
@@ -91,7 +91,7 @@ export default function AppTabs() {
           to="/ContactUs">
           <p className="ContactUsText">
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               Contact Us
@@ -109,7 +109,7 @@ export default function AppTabs() {
           to="/Gallery">
           <p className="GalleryText">
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               Gallery
@@ -127,7 +127,7 @@ export default function AppTabs() {
           to="/Instagram">
           <p className="InstagramText">
             <font
-              size="6"
+              //size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               Instagram
@@ -145,7 +145,7 @@ export default function AppTabs() {
           to="/COVID19">
           <p className="COVIDText">
             <font
-              size="6"
+              // size="6"
               face="FuturaItalicBold"
               style={{ backgroundColor: "#e8f6fa" }}>
               COVID-19 Response

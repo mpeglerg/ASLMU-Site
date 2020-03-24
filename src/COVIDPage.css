@@ -2,6 +2,10 @@
   font-family: "FuturaItalicBold";
   src: url("fonts/futura/FuturaBoldItalic.ttf");
 }
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/Lato/Lato-Regular.ttf");
+}
 
 .CovidTitle {
   font-family: "FuturaItalicBold";
@@ -10,4 +14,10 @@
   font-size: 60px;
   border-bottom: solid 4px #f79051;
   border-top: solid 4px #f79051;
+}
+
+.TaylorLetter {
+  font-family: "LatoRegular";
+  margin-left: 15vw;
+  margin-right: 15vw;
 }

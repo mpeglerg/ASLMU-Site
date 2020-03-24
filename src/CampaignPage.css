@@ -3,6 +3,11 @@
   src: url("fonts/PlaylistFF/Playlist\ Script.otf");
 }
 
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/Lato/Lato-Regular.ttf");
+}
+
 .PlatformTitle {
   text-align: center;
   color: #f79051;
@@ -15,18 +20,21 @@
   text-align: left;
   margin-left: 2%;
   margin-right: 40%;
+  font-family: "LatoRegular";
 }
 
 .HealingText {
   text-align: right;
   margin-right: 2%;
   margin-left: 40%;
+  font-family: "LatoRegular";
 }
 
 .CommunityText {
   text-align: left;
   margin-left: 2%;
   margin-right: 40%;
+  font-family: "LatoRegular";
 }
 
 .SloganText {
