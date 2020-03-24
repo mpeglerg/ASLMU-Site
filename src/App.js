@@ -11,6 +11,7 @@ import ContactUsPage from "./ContactUsPage.js";
 import GalleryPage from "./GalleryPage";
 import InstagramPage from "./InstagramPage";
 import CalendarPage from "./CalendarPage";
+import COVIDPage from "./COVIDPage.js";
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,9 @@ function App() {
             </Route>
             <Route exact path="/Calendar">
               <CalendarPage />
+            </Route>
+            <Route exact path="/COVID19">
+              <COVIDPage />
             </Route>
           </Switch>
         </div>

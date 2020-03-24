@@ -134,7 +134,7 @@ export default function AppTabs() {
             </font>
           </p>
         </NavLink>
-        {/* <NavLink
+        <NavLink
           style={{
             textDecoration: "none",
             color: "#f79051"
@@ -151,7 +151,7 @@ export default function AppTabs() {
               COVID-19 Response
             </font>
           </p>
-        </NavLink> */}
+        </NavLink>
       </nav>
     </div>
   );
