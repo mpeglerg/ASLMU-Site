@@ -88,3 +88,13 @@
   padding-right: 5%;
   padding-bottom: 2%;
 }
+
+.TaylorInvolvements {
+  float: right;
+  margin-right: 10%;
+}
+
+.AnyaInvolvements {
+  float: left;
+  margin-left: 10%;
+}

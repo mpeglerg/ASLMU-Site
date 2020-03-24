@@ -1,5 +1,8 @@
 .AllTabs {
   float: left;
+  z-index: 1;
+  position: absolute;
+  margin-top: 0px;
 }
 
 a {

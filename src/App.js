@@ -7,6 +7,7 @@ import HomePage from "./HomePage.js";
 import CampaignPage from "./CampaignPage.js";
 import AboutUsPage from "./AboutUsPage.js";
 import EndorsementPage from "./EndorsementPage.js";
+import ContactUsPage from "./ContactUsPage.js";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route exact path="/Endorsement">
               <EndorsementPage />
+            </Route>
+            <Route exact path="/ContactUs">
+              <ContactUsPage />
             </Route>
           </Switch>
         </div>

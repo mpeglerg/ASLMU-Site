@@ -7,7 +7,9 @@ export default function AppTabs() {
       <nav
         style={{
           paddingTop: "15px",
-          paddingLeft: "15px"
+          paddingLeft: "15px",
+          zIndex: 1,
+          position: "absolute"
         }}>
         <NavLink
           style={{ textDecoration: "none", color: "#f79051" }}
@@ -60,6 +62,21 @@ export default function AppTabs() {
           <p className="EndorsementText">
             <font size="6" face="FuturaItalicBold" style={{}}>
               Endorsements
+            </font>
+          </p>
+        </NavLink>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            color: "#f79051"
+          }}
+          activeClassName="ActiveCampaignTab"
+          exact
+          id="ContactUsTab"
+          to="/ContactUs">
+          <p className="ContactUsText">
+            <font size="6" face="FuturaItalicBold" style={{}}>
+              Contact Us
             </font>
           </p>
         </NavLink>

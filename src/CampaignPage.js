@@ -77,9 +77,9 @@ export default function CampaignPage() {
           can come together to improve our Lion community and beyond.
         </p>
       </div>
-      <div className="SloganText">
-        <h3>With all of us together, “the Dream lives on"</h3>
-      </div>
+      <h3 className="SloganText">
+        With all of us together, “the Dream lives on"
+      </h3>
     </div>
   );
 }

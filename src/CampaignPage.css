@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("fonts/PlaylistFF/Playlist\ Script.otf");
+}
+
 .PlatformTitle {
   text-align: center;
   color: #f79051;
   font-family: "FuturaItalicBold";
+  font-size: 60px;
+  border-bottom: solid 4px #f79051;
+  border-top: solid 4px #f79051;
 }
 .MissionText {
   text-align: left;
@@ -23,8 +31,10 @@
 
 .SloganText {
   text-align: center;
-  color: #f79051;
+  color: #ffffff;
   font-family: "FuturaItalicBold";
+  font-size: 50px;
+  font-family: "PlaylistScript";
 }
 
 .MissionTitle {

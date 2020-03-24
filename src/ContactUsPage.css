@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "FuturaItalicBold";
+  src: url("fonts/futura/FuturaBoldItalic.ttf");
+}
+
+.ContactUsTitle {
+  font-family: "FuturaItalicBold";
+  color: #f79051;
+  float: right;
+  margin-right: 15%;
+  font-size: 40px;
+  border-bottom: solid 4px #f79051;
+  border-top: solid 4px #f79051;
+}
+
+.ContactUsTextSection {
+  clear: right;
+  margin-right: 10%;
+  margin-left: 50%;
+}
+
+.GoogleForm {
+  width: 40vw;
+  display: block;
+  height: 60vw;
+  background-color: transparent;
+  float: left;
+}
