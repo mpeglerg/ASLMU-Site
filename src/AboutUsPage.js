@@ -42,14 +42,13 @@ export default function AboutUsPage() {
       <div className="AboutTaylorSection">
         <h1 className="AboutTaylorTitle">About Taylor:</h1>
         <p className="TaylorSectionText">
-          Taylor is Anti-racism Studies and Spanish Double Major in the Class of
+          Taylor is Anti-Racism Studies and Spanish Double Major in the Class of
           2021. While at LMU, Taylor has taken on the roles of 2019-2020 ASLMU
           NCAA Senator and Marians Service-Org Co-Chair of Special Events.
           Taylor has paved her own way at LMU, creating her own major and
           founding TEAM, an anti-racism affinity group. Taylor is also involved
-          in LMU's Intercultural Facilitator program, conducting implicit bias
-          trainings and more. Additionally, Taylor is a student athlete on the
-          LMU Women's Swim Team. To learn more about Taylor's involvements{" "}
+          in LMU's Intercultural Facilitator program and is a student athlete on
+          the LMU Women's Swim Team. To learn more about Taylor's involvements{" "}
           <a href="https://www.linkedin.com/in/taylor-pajunen/"> click here</a>.
         </p>
       </div>

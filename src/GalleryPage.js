@@ -6,7 +6,6 @@ import GalleryImage01 from "./images/GalleryImage01.jpg";
 import GalleryImage02 from "./images/GalleryImage02.jpg";
 import GalleryImage03 from "./images/GalleryImage03.jpg";
 import GalleryImage04 from "./images/GalleryImage04.jpg";
-import GalleryImage05 from "./images/GalleryImage05.jpg";
 import GalleryImage06 from "./images/GalleryImage06.jpg";
 import GalleryImage07 from "./images/GalleryImage07.jpg";
 import GalleryImage08 from "./images/GalleryImage08.jpg";
@@ -32,10 +31,6 @@ const galleryImages = [
   {
     original: GalleryImage04,
     thumbnail: GalleryImage04
-  },
-  {
-    original: GalleryImage05,
-    thumbnail: GalleryImage05
   },
   {
     original: GalleryImage06,
