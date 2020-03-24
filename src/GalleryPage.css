@@ -3,6 +3,8 @@
   src: url("fonts/futura/FuturaBoldItalic.ttf");
 }
 
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .GalleryTitle {
   font-family: "FuturaItalicBold";
   color: #f79051;
