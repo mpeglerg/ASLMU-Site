@@ -12,46 +12,212 @@
   font-family: "FuturaItalicBold";
   color: #f79051;
   text-align: center;
-  font-size: 60px;
+
+  font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
   border-bottom: solid 4px #f79051;
   border-top: solid 4px #f79051;
 }
 
 .LilaEndorsement {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
-  padding-right: 3%;
   grid-row: 1;
   grid-column: 1;
 }
 
 .LilaQuote {
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
-  width: 40%;
+  width: 100%;
   text-align: center;
   font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .RaymondQuote {
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 2;
-  width: 40%;
+  width: 100%;
   text-align: center;
   font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .RaymondEndorsement {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
-  padding-right: 3%;
   grid-row: 1;
   grid-column: 2;
 }
 
+.AlexisQuote {
+  grid-row: 1;
+  grid-column: 3;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.AlexisEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.HavanaQuote {
+  grid-row: 2;
+  grid-column: 1;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.HavanaEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.IsaQuote {
+  grid-row: 2;
+  grid-column: 2;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.IsaEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.JonahQuote {
+  grid-row: 2;
+  grid-column: 3;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.JonahEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.JoshQuote {
+  grid-row: 3;
+  grid-column: 1;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.JoshEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.RosieQuote {
+  grid-row: 3;
+  grid-column: 2;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.RosieEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.TaylorQuote {
+  grid-row: 3;
+  grid-column: 3;
+  width: 100%;
+  text-align: center;
+  font-family: "LatoRegular";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.TaylorEndorsement {
+  max-width: 100%;
+  height: auto;
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.QuoteTitle {
+  font-family: "FuturaItalicBold";
+  color: #f79051;
+  text-align: center;
+  font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+  padding-top: 3%;
+}
 .Endorsement {
   display: grid;
-  grid-template-rows: 1f 1f;
-  grid-template-columns: 1f 1f;
-
-  margin-left: 20%;
+  grid-template-rows: 1f 1f 1f;
+  grid-template-columns: 1f 1f 1f;
+  margin-right: 5%;
+  margin-left: 5%;
+  grid-gap: 1%;
 }
+
+/* @media only screen and (min-width: 900px) { */
+.EndorsementQuotes {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 5%;
+  margin-left: 5%;
+  grid-gap: 1%;
+}
+/* } */
+/* 
+@media only screen and (max-width: 900px) {
+  .EndorsementQuotes {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
+} */
+
+.Quote {
+  font-size: x-large;
+}
+
+.Author {
+  font-size: medium;
+}
+/* 
+.grid-container--fill {
+  grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+} */

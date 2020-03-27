@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import "./AppTabs.css";
 export default function AppTabs() {
   return (
     <div className="AllTabs">
       <nav
         style={{
-          marginTop: "15px",
+          // marginTop: "15px",
           marginLeft: "15px",
           zIndex: 1,
           position: "relative"
@@ -113,23 +113,7 @@ export default function AppTabs() {
             Gallery
           </font>
         </NavLink>
-        <NavLink
-          style={{
-            textDecoration: "none",
-            color: "#f79051",
-            paddingRight: "2%"
-          }}
-          activeClassName="ActiveInstagramTab"
-          exact
-          id="InstagramTab"
-          to="/Instagram">
-          <font
-            //size="6"
-            face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
-            Instagram
-          </font>
-        </NavLink>
+
         <NavLink
           style={{
             textDecoration: "none",
