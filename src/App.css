@@ -5,6 +5,8 @@
 
 .App {
   background-color: #e8f6fa;
+  width: fit-content;
+  height: fit-content;
 }
 
 .Header {

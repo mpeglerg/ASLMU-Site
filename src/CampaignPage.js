@@ -1,23 +1,16 @@
 import React from "react";
-import campaignlogo from "./images/campaignlogo.png";
 import "./CampaignPage.css";
 
 export default function CampaignPage() {
   return (
     <div className="Campaign">
-      <div className="LogoImage">
-        <img
-          className="CampaignLogoImage"
-          src={campaignlogo}
-          alt="camapignlogo"
-          width="150px"></img>
-      </div>
+      <div className="LogoImage"></div>
       <h2 className="PlatformTitle">Our Platform</h2>
-      <div className="MissionText">
+      <div className="MissionSection">
         <h3 className="MissionTitle">
-          We believe in our <span style={{ color: "#f79051" }}>Mission:</span>{" "}
+          We believe in our <span style={{ color: "#f79051" }}>Mission...</span>{" "}
         </h3>
-        <p>
+        <p className="SectionText">
           No student’s success should be hindered by racial bias, mental health,
           gender exclusivity, inaccessibility, or food insecurity. As members of
           the current ASLMU administration, we will use our experiential
@@ -30,11 +23,11 @@ export default function CampaignPage() {
           the immediate needs of the LMU student body.
         </p>
       </div>
-      <div className="HealingText">
+      <div className="HealingSection">
         <h3 className="HealingTitle">
           We believe in <span style={{ color: "#f79051" }}>Healing...</span>
         </h3>
-        <p>
+        <p className="SectionText">
           There is a consistent need for opportunities to{" "}
           <span style={{ color: "#f79051" }}> heal and recharge </span> from the
           impact of academics and extracurricular involvements. We’ll
@@ -53,11 +46,11 @@ export default function CampaignPage() {
           <span style={{ color: "#f79051" }}> LMU experience. </span>
         </p>
       </div>
-      <div className="CommunityText">
+      <div className="CommunitySection">
         <h3 className="CommunityTitle">
           We believe in <span style={{ color: "#f79051" }}>Community...</span>{" "}
         </h3>
-        <p>
+        <p className="SectionText">
           We'll continue our current hands-on work in getting{" "}
           <span style={{ color: "#f79051" }}> menstrual hygiene products </span>{" "}
           in more public restrooms and demanding LMU’s{" "}

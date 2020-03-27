@@ -7,7 +7,7 @@ export default function AppTabs() {
       <nav
         style={{
           // marginTop: "15px",
-          marginLeft: "15px",
+          marginLeft: "3%",
           zIndex: 1,
           position: "relative"
         }}>
@@ -25,7 +25,8 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
             <a className="HomeTab"> Home </a>
           </font>
         </NavLink>
@@ -41,8 +42,9 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
-            About Us
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
+            About
           </font>
         </NavLink>
         <NavLink
@@ -58,7 +60,8 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
             Campaign
           </font>
         </NavLink>
@@ -75,7 +78,8 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
             Endorsements
           </font>
         </NavLink>
@@ -92,8 +96,9 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
-            Contact Us
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
+            Contact
           </font>
         </NavLink>
         <NavLink
@@ -109,7 +114,8 @@ export default function AppTabs() {
           <font
             //size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
             Gallery
           </font>
         </NavLink>
@@ -127,7 +133,8 @@ export default function AppTabs() {
           <font
             // size="6"
             face="FuturaItalicBold"
-            style={{ backgroundColor: "#e8f6fa" }}>
+            // style={{ backgroundColor: "#e8f6fa" }}
+          >
             COVID
           </font>
         </NavLink>
