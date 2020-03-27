@@ -3,6 +3,7 @@
   z-index: 1;
   position: absolute;
   margin-top: 0px;
+  padding-right: "2%";
 }
 
 /* a.HomeTab:hover {
@@ -12,4 +13,8 @@
 a {
   size: calc(20px + (80 - 20) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+NavLink {
+  padding-right: "20%";
 }
