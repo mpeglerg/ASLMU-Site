@@ -14,7 +14,9 @@ import "./EndorsementPage.css";
 export default function EndorsementPage() {
   return (
     <div>
-      <h1 className="EndorsementTitle">Proudly Endorsed By</h1>
+      <h1 className="EndorsementTitle">
+        Proudly <br /> Endorsed By
+      </h1>
       <div className="Endorsement">
         <img className="LilaEndorsement" src={LRhodesEndorsement}></img>
         <img className="RaymondEndorsement" src={RaymondEndorsement}></img>

@@ -17,6 +17,9 @@
   font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
   border-bottom: solid 4px #f79051;
+  background-image: url("./images/Loyola-Marymount-University_Chapel\ Contact_Header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .ContactUsTextSection {

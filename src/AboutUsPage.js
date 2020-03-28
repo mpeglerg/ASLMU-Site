@@ -7,8 +7,11 @@ import "./AboutUsPage.css";
 
 export default function AboutUsPage() {
   return (
-    <div>
-      <h1 className="MeetYourRepsTitle">Meet Your Candidates</h1>
+    <div className="AboutUsPage">
+      <h1 className="MeetYourRepsTitle">
+        Meet Your <br />
+        Candidates
+      </h1>
       <img
         className="AnyaHeadshot"
         src={AnyaHeadshot}
@@ -27,6 +30,7 @@ export default function AboutUsPage() {
           intention and care, and intends to continue to do so if elected
           2020-2021 ASLMU President. To learn more about Anya's involvements
           <a href="https://www.linkedin.com/in/anya-montgomery-b5b926141/">
+            {" "}
             click here
           </a>
           .

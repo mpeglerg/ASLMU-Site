@@ -5,7 +5,9 @@ import { Header, Container, Card, Message, Grid } from "semantic-ui-react";
 export default function CampaignPage() {
   return (
     <div className="Campaign">
-      <h2 className="PlatformTitle">Our Platform</h2>
+      <h2 className="PlatformTitle">
+        Our <br /> Platform
+      </h2>
       <div className="InitiativeLeft">
         <p className="Intiative">
           <a href="#COVIDResponse">1. COVID-19 Response </a>

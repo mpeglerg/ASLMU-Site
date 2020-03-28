@@ -12,7 +12,9 @@
   font-family: "FuturaItalicBold";
   color: #f79051;
   text-align: center;
-
+  background-image: url("./images/Loyola-Marymount-University_Chapel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
   font-size: calc(30px + (80 - 30) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
   max-width: 100vw;
