@@ -60,7 +60,7 @@ export default function AboutUsPage() {
           <p>ASLMU Secretary </p>
           <p>Sursum Corda Service-Org; VP of Mission and Social Justice </p>
           <p>WHH Library; Circulations Manager</p>
-          <p>TEAM; Founder and President</p>
+          <p>Together as Effective AccoMplices (TEAM); Founder and President</p>
 
           <p>ASLMU NCAA Senator </p>
           <p>Marians Service-Org; Co-Chair of Special Events </p>
