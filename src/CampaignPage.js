@@ -102,11 +102,11 @@ export default function CampaignPage() {
             <ol>
               We believe that we cannot run this campaign without acknowledging
               the students, staff, faculty, and broader world who have already
-              been instrumental in this process of advocating for social justice
+              been instrumental in the process of advocating for social justice
               since long before our time. This campaign is not about any one
-              individual but instead about the collective work of all of us from
-              before, today, and for the future Lions to come. With all of us
-              together, the dream lives on.
+              individual but instead about the collective work of the whole
+              community of past, present, and future lions to come. With all of
+              us together, the dream lives on.
             </ol>
           </p>
         </a>
@@ -129,8 +129,8 @@ export default function CampaignPage() {
               intentioned, can perpetuate a savior complex. We also acknowledge
               that too often people of marginalized communities are forced to
               expend emotional labor, as they are put into a position as
-              teachers of social justice issues. Leading in light of Greg Boyle
-              of{" "}
+              teachers of social justice issues. Leading in light of the wise
+              words of Greg Boyle of{" "}
               <a href="https://www.instagram.com/homeboyindustries/">
                 {" "}
                 @HomeboyIndustries{" "}
@@ -142,7 +142,7 @@ export default function CampaignPage() {
               oriented clubs to come together, build coalition, and work towards
               equity and justice. Currently, we are a part of groups within the
               Justice League, such as{" "}
-              <a href="https://www.instagram.com/lmu.team/">@lmuteam </a>, and
+              <a href="https://www.instagram.com/lmu.team/">@lmuteam</a>, and
               see the potential that organized coalition building has on
               encouraging critical student mobilization and sparking movements.
             </ol>
@@ -156,24 +156,25 @@ export default function CampaignPage() {
           <p>
             <ol>
               This past year, we both had the chance to attend the Queer Trans
-              People of Color Conference in Riverside, CA alongside
+              People of Color (QTPOC) Conference in Riverside, CA thanks to the
+              organization of{" "}
               <a href="https://www.instagram.com/transcendencelmu/">
-                @lmutranscendence{" "}
+                @lmutranscendence
               </a>
               . We learned so much during this conference and felt so happy to
               be in community with LMU and California students. Here, we learned
               of many ways other schools are accommodating their students and
-              staff. This year is LGBTSS’s 10 year anniversary and we’re excited
-              to continue collaborating with the and other college campuses to
-              improve our home here on the bluff. Our initiatives moving forward
-              to support our LGBTQ students include creating a student and staff
-              task force to implement a research-based resource kit to support
-              our trans or transitioning students, staff, faculty, and
-              employees, whose experiences often go unnoticed on the bluff,
-              expanding the menstrual hygiene initiative to be open and
-              accessible to all menstruating bodies, and hosting and
-              collaborating with Transcendence to host a Trans Advocacy Week
-              that encourages learning, dialogue, and awareness of trans issues.
+              staff. This year is LGBTSS’s 10 year anniversary, and we’re
+              excited to continue collaborating with LGBTSS and other college
+              campuses to improve our home here on the bluff. Our initiatives
+              moving forward to support our LGBTQ+ students include creating a
+              student and staff task force to implement a research-based
+              resource kit to support our trans or transitioning students,
+              staff, faculty, and employees expanding the menstrual hygiene
+              initiative to be open and accessible to all menstruating bodies,
+              and hosting and collaborating with Transcendence to host a Trans
+              Advocacy Week that encourages learning, dialogue, and awareness of
+              trans issues.
             </ol>
           </p>
         </a>
@@ -234,7 +235,7 @@ export default function CampaignPage() {
               We are determined to implement resources that promote the overall
               health and well-being of our students in an intersectional manner.
               We have students of various backgrounds at this university who
-              require and deserve specialized anb unique resources. We will
+              require and deserve specialized and unique resources. We will
               collaborate with Disability Support Services, Community of Care,
               and LMUCares on creating templates for students to advocate for
               their mental and physical health needs to professors. Phenomenal
@@ -264,9 +265,9 @@ export default function CampaignPage() {
               the predominantly black and brown communities who experience the
               brunt of climate change and who have been advocating for change
               but too often get silenced. We must critically look at how our
-              Divestment Movement is being run
+              Divestment Movement is being run before engaging in a call for
+              policy change.
             </ol>
-            <ol>Sunrise Movement, Green New Deal</ol>
           </p>
         </a>
         <a id="MenstrualProducts">
@@ -285,16 +286,18 @@ export default function CampaignPage() {
               restrooms on campus. Taylor learned a lot during the year, as she
               primarily focused on promoting awareness on the complex and
               intersectional issues surrounding menstrual injustices and period
-              poverty. Taylor and 2 of her fellow ASLMUers worked to write a
-              resolution that calls for the University to take on this
-              initiative. She is very proud of the work of Ken and the Committee
-              and sees that there is still work to be done. In the coming year,
-              Anya and Taylor will secure that LMU supports and pays for
-              increasing the amount of restrooms with the products and
-              prioritize that dispensers are installed in gender neutral
-              restrooms. This will ensure that broader initiatives surrounding
-              Period Justice are not trans-exclusive and are accessible for all
-              people.
+              poverty. Taylor and 2 of her fellow ASLMUers worked to{" "}
+              <a href="https://static1.squarespace.com/static/5553dad5e4b0277cbe132744/t/5e641b67190266288c3af3b3/1583618925055/men+prod+resolution.pdf">
+                write a resolution
+              </a>{" "}
+              that calls for the University to take on this initiative. She is
+              very proud of the work of Ken and the Committee and sees that
+              there is still work to be done. In the coming year, Anya and
+              Taylor will secure that LMU supports and pays for increasing the
+              amount of restrooms with the products and prioritize that
+              dispensers are installed in gender neutral restrooms. This will
+              ensure that broader initiatives surrounding Period Justice are not
+              trans-exclusive and are accessible for all people.
             </ol>
           </p>
         </a>
@@ -309,24 +312,19 @@ export default function CampaignPage() {
               they deserve student engagement as recognition of their daily
               commitment to serving LMU. Likewise, student orgs are constantly
               planning and executing impactful, affirming, and entertaining
-              programming.
-            </ol>
-            <ol>
-              We’re excited to support our student athletes who train for hours
-              a day to compete for this school. We are looking to start up a
-              point system for game participation and attendance at student
-              programming across campus. Those who go to the most games and
-              events, get the most points… and the top point scores get… free
-              stufffffff!!!! Our students do this work to bring life to the LMU
-              experience, and that should not go unnoticed or unappreciated. We
-              believe that student engagement is a cornerstone of a strong
-              community on our campus. With that being said, we recognize that
-              attendance at these events is a significant sacrifice of time that
-              should not go unrewarded. With the academic rigor of LMU, we feel
-              that it is of utmost importance that we are allowed to take time
-              and recharge at events that are simply for enjoyment and
-              community. We must support and cheer on our student athletes who
-              dedicate hours everyday to represent our university.
+              programming. We’re excited to support these amazing LMU students.
+              We are looking to start up a point system for game participation
+              and attendance at student programming across campus. Those who go
+              to the most games and events, get the most points… and the top
+              point scores get… free stufffffff!!!! Our students do this work to
+              bring life to the LMU experience, and that should not go unnoticed
+              or unappreciated. We believe that student engagement is a
+              cornerstone of a strong community on our campus. With that being
+              said, we recognize that attendance at these events is a
+              significant sacrifice of time that should not go unrewarded. With
+              the academic rigor of LMU, we feel that it is of utmost importance
+              that we are allowed to take time and recharge at events that are
+              simply for enjoyment and community.
             </ol>
           </p>
         </a>
@@ -341,13 +339,13 @@ export default function CampaignPage() {
               campus students ourselves, we recognize the difficulties that
               commuter and off campus students have in attending this
               university. Our university benefits must be accessible to off
-              campus students. We also plan to increase the amount of campus
-              shuttles to include travel to Playa Del Rey, Marina Del Rey, and
-              Venice. We want to collaborate with RHA to extend the HBO-Go
-              services to off campus students. As our goals include supporting
-              our students in a non-invasive way that does not further trauma,
-              we also plan to disperse Household Essentials Kits to students
-              every month, no questions asked.
+              campus students. We want to collaborate with RHA to extend the
+              HBO-Go services to off campus students. We also plan to increase
+              the amount of campus shuttles to include travel to Playa Del Rey,
+              Marina Del Rey, and Venice. As our goals include supporting our
+              students in a non-invasive way that does not further trauma, we
+              also plan to disperse Household Essentials Kits to students every
+              month, no questions asked.
             </ol>
           </p>
         </a>
@@ -386,7 +384,7 @@ export default function CampaignPage() {
           gender exclusivity, inaccessibility, or food insecurity. As members of
           the current ASLMU administration, we will use our experiential
           knowledge, privileges, approachability, and intersectional identities
-          to center the <span style={{ color: "#f79051" }}>student voice</span>
+          to center the <span style={{ color: "#f79051" }}>student voice </span>
           and continue making LMU a healthy and exciting place to call home. If
           elected, we will
           <span style={{ color: "#f79051" }}> continue the dream </span> of past
@@ -404,7 +402,8 @@ export default function CampaignPage() {
           impact of academics and extracurricular involvements. We’ll
           collaborate with SPS to
           <span style={{ color: "#f79051" }}>
-            increase service accessibility
+            {" "}
+            increase service accessibility{" "}
           </span>
           and transparency in the way of an alternative appointment-booking
           system. We hope to provide resources for students struggling to
@@ -425,16 +424,18 @@ export default function CampaignPage() {
           <span style={{ color: "#f79051" }}> menstrual hygiene products </span>
           in more public restrooms and demanding LMU’s
           <span style={{ color: "#f79051" }}>
+            {" "}
             divestment from fossil fuel companies
           </span>
           . We will also engage with organizations such as LGBTSS to improve
           <span style={{ color: "#f79051" }}>
+            {" "}
             resources for our trans students and staff
           </span>
           . With support from grassroots student-media platforms, such as{" "}
-          <a href="https://www.instagram.com/agencylmu/">LMU Agency </a>, we
-          will advocate for continued action on these initiatives and develop
-          the campus understanding of intersectional issues that center the
+          <a href="https://www.instagram.com/agencylmu/">LMU Agency</a>, we will
+          advocate for continued action on these initiatives and develop the
+          campus understanding of intersectional issues that center the
           experiences of communities of color. We’ll collaborate with
           departments including CSA and EIS to encourage campus-wide reflection
           on our mission, sometimes savioristic practices, and the ways that we
