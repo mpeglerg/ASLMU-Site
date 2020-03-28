@@ -33,18 +33,25 @@ export default function EndorsementPage() {
             “I’m voting for Anya and Taylor because I know they will foster an
             administration centered around social justice and use inclusive
             practices to serve the needs of all students.”
-          </div>{" "}
+          </div>
           <br />
-          <div className="Author">-Lila Rhodes</div>
+          <div className="Author">
+            -Lila Rhodes (she/her), Class of 2022, President of Marian's Service
+            Org
+          </div>
         </p>
         <p className="RaymondQuote">
           <div className="Quote">
             “Anya and Taylor are some of the most genuine, kind, and
             intellectual people I know. I know for a fact that if elected they
             would do everything in their power to make and revise policies to
-            reflect the needs of everyone best the can.”{" "}
+            reflect the needs of everyone best the can.”
           </div>
-          <br /> <div className="Author">-Raymond CangKimVo </div>
+          <br />
+          <div className="Author">
+            -Raymond CangKimVo (he/they), Class of 2023, Secretary of
+            Transcendence
+          </div>
         </p>
         <p className="AlexisQuote">
           <div className="Quote">
@@ -53,9 +60,12 @@ export default function EndorsementPage() {
             much change on campus. They’re effective and driven and have the
             right mindset to lead LMU into a better future. They’re also
             incredibly inclusive with every group on campus and actively listen
-            to what everyone has to say."{" "}
+            to what everyone has to say."
           </div>
-          <br /> <div className="Author">-Alexis DeBever </div>
+          <br />
+          <div className="Author">
+            -Alexis DeBever (she/her), Class of 2021, LMU Swim Team
+          </div>
         </p>
         <p className="HavanaQuote">
           <div className="Quote">
@@ -67,10 +77,14 @@ export default function EndorsementPage() {
             Anya will work for solutions effecting each student on this campus.
             I believe Anya and Taylor are a force to be reckoned with and the
             type of strong leaders the LMU community deserves at the helm of
-            ASLMU."{" "}
+            ASLMU."
           </div>
-          <br /> <div className="Author">-Havana Campo </div>
-        </p>{" "}
+          <br />
+          <div className="Author">
+            -Havana Campo (she/her), Class of 2021, President of LMU Pre-Vet
+            Club
+          </div>
+        </p>
         <p className="IsaQuote">
           <div className="Quote">
             "I am supporting Anya and Taylor for President and Vice President
@@ -79,18 +93,25 @@ export default function EndorsementPage() {
             approach to it. I know that Anya and Taylor will work hard to
             achieve the things they want to improve at LMU, because they stand
             up and support those who need it, even when no one is watching."
-          </div>{" "}
-          <br /> <div className="Author">-Isa Coty </div>
+          </div>
+          <br />
+          <div className="Author">
+            -Isa Coty (she/her), Class of 2022, Rains Hall Social Justice and
+            Inclusion Chair
+          </div>
         </p>
         <p className="JonahQuote">
           <div className="Quote">
             "I support Anya and Taylor because of their commitment to student
             equity as well as their advocacy for a healthier, more inclusive
             community at LMU. I believe that they will have a lasting impact for
-            both current and future students alike."{" "}
+            both current and future students alike."
           </div>
-          <br /> <div className="Author">-Jonah Sãenz </div>
-        </p>{" "}
+          <br />
+          <div className="Author">
+            -Jonah Sãenz (he/him), Class of 2020, LMU Men's Rowing
+          </div>
+        </p>
         <p className="JoshQuote">
           <div className="Quote">
             "Anya and Taylor are great candidates for President and
@@ -99,21 +120,26 @@ export default function EndorsementPage() {
             Both Anya and Taylor have proven that they are fit for their
             positions through their involvement on campus in Service Orgs,
             Athletics, Ethnic and Intercultural Services, TEAM, and more. I know
-            they are committed to LMU and will be great leaders of ASLMU."{" "}
+            they are committed to LMU and will be great leaders of ASLMU."
           </div>
           <br />
-          <div className="Author"> -Josh Seaman </div>
-        </p>{" "}
+          <div className="Author">
+            -Josh Seaman (he/him), Class of 2022, President of Hillel
+          </div>
+        </p>
         <p className="RosieQuote">
           <div className="Quote">
             " I support Taylor and Anya because I believe that their platform
             puts pressing social justice issues, such as DivestLMU, at the top
             of their agenda. Taylor and Anya’s platform is at the forefront of
             providing minorities, women and other marginalized communities with
-            the tools and support to succeed at LMU."{" "}
+            the tools and support to succeed at LMU."
           </div>
-          <br /> <div className="Author">-Rosie Cruz </div>
-        </p>{" "}
+          <br />
+          <div className="Author">
+            -Rosie Cruz (she/her), Class of 2021, LMU Cross Country and Track
+          </div>
+        </p>
         <p className="TaylorQuote">
           <div className="Quote">
             "I believe Tay P and Anya would be a perfect fit for the ASLMU VP
@@ -122,9 +148,12 @@ export default function EndorsementPage() {
             Women’s and Gender Studies majors and have a common interest in
             social justice. I believe these two would excel in this position and
             are willing to go the extra mile in order to strengthen our
-            community and work towards justice for the students at LMU."{" "}
+            community and work towards justice for the students at LMU."
           </div>
-          <br /> <div className="Author">-Taylor Keinath </div>
+          <br />
+          <div className="Author">
+            -Taylor Keinath (she/her), Class of 2022, LMU Softball
+          </div>
         </p>
       </div>
     </div>

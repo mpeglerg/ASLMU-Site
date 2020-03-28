@@ -6,7 +6,7 @@ import "./COVIDPage.css";
 export default function COVIDPage() {
   return (
     <div>
-      <h1 className="CovidTitle">Our Response to COVID-19</h1>
+      <h1 className="CovidTitle">TayP's Response to COVID-19</h1>
       <p className="TaylorLetter">
         <div className="FirstParagraph">
           Dear LMU, <br />

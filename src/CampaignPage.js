@@ -8,57 +8,45 @@ export default function CampaignPage() {
       <h2 className="PlatformTitle">Our Platform</h2>
       <div className="InitiativeLeft">
         <p className="Intiative">
-          {" "}
           <a href="#COVIDResponse">1. COVID-19 Response </a>
         </p>
         <p className="Intiative">
-          {" "}
           <a href="#Principles">2. Staying True to our Principles </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#WorkWithRSO">
             3. Working with CSA, EIS, Campus Ministry, and Social Justice
             Focused RSOs
           </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#MentalHealth"> 4. Mental Health Matters </a>
         </p>
         <p className="Intiative">
-          {" "}
           <a href="#StudentAthlete">5. Supporting our Student Athletes</a>
-        </p>{" "}
+        </p>
       </div>
       <div className="InitiativeRight">
         <p className="Intiative">
-          {" "}
-          <a href="#AcademicCompassion">
-            6. Compassion in an Academic Setting{" "}
-          </a>
-        </p>{" "}
+          <a href="#AcademicCompassion">6. Compassion in an Academic Setting</a>
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#QTPOC">7. QTPOC Community Based Resources </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#Divestment">8. Divestment </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#MenstrualProducts">
-            9. Continuing the Menstrual Products Initiative{" "}
+            9. Continuing the Menstrual Products Initiative
           </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
-          {" "}
           <a href="#SchoolSpirit">10. Promoting School Spirit </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
           <a href="#OffCampusSupport">11. Support for Off-Campus Students </a>
-        </p>{" "}
+        </p>
         <p className="Intiative">
           <a href="#GSLMUFacultySenate">12. GSLMU and Faculty Senate</a>
         </p>
@@ -90,20 +78,15 @@ export default function CampaignPage() {
               Emergency funding of up to $500: Email the Dean of Students Office
               at deanofstudents@lmu.edu (we recognize this could be a lot of
               emotional labor, so know that we’re standing in solidarity with
-              you and are here for you){" "}
+              you and are here for you)
             </ol>
-            <ol>Community of Care: 310.338.3756 or communityofcare@lmu.edu.</ol>{" "}
+            <ol>Community of Care: 310.338.3756 or communityofcare@lmu.edu.</ol>
             <ol>
-              {" "}
               SPS video or phone services to new and existing clients Business:
-              310.338.2868 After business hours: 310.338.2868{" "}
-            </ol>{" "}
+              310.338.2868 After business hours: 310.338.2868
+            </ol>
+            <ol>Therapy Assist On-line (TAO): 24/7 services at lmu.edu/tao.</ol>
             <ol>
-              {" "}
-              Therapy Assist On-line (TAO): 24/7 services at lmu.edu/tao.{" "}
-            </ol>{" "}
-            <ol>
-              {" "}
               Reach out to advisers, professors, and other staff/faculty
               members: ex. Ethnic and Intercultural Services has directors who
               are ready to help
@@ -111,9 +94,10 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="Principles">
-          <p className="InitiativeTitle">Staying true to our Principles </p>{" "}
+          <p className="InitiativeTitle">
+            Staying True to Our Principles: Taking a community driven approach
+          </p>
           <p>
-            <ol>Taking a community driven approach </ol>{" "}
             <ol>
               We believe that we cannot run this campaign without acknowledging
               the students, staff, faculty, and broader world who have already
@@ -127,9 +111,9 @@ export default function CampaignPage() {
         </a>
         <a id="WorkWithRSO">
           <p className="InitiativeTitle">
-            Savor the world, don’t save it:Working with CSA, EIS, Campus
-            Ministry, and Social Justice Focused RSOs{" "}
-          </p>{" "}
+            Savor the World, Don’t Save It: Working with CSA, EIS, Campus
+            Ministry, and Social Justice Focused RSOs
+          </p>
           <p>
             <ol>
               We plan to work with the Center for Service and Action, Ethnic and
@@ -158,12 +142,11 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="MentalHealth">
-          <p className="InitiativeTitle">Your Mental Health Matters</p>{" "}
+          <p className="InitiativeTitle">
+            Your Mental Health Matters: Improving Transparency of our Mental
+            Health Support Services
+          </p>
           <p>
-            {" "}
-            <ol>
-              Improving Transparency of our Mental Health Support Services
-            </ol>{" "}
             <ol>
               As students who have both utilized and worked with our Student
               Psychological Services (SPS), we have a fundamental understanding
@@ -180,13 +163,12 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="StudentAthlete">
-          {" "}
           <p className="InitiativeTitle">
-            {" "}
-            Supporting our student athletes
-          </p>{" "}
+            Supporting our Student Athletes: Continuing the Athletics Mental
+            Health Initiative and Working to Support the Overall Health of
+            Student Athletes
+          </p>
           <p>
-            {" "}
             <ol>
               We recognize that the world of athletics is too often inaccessible
               and unaccommodating for athletes. It is a privilege to compete at
@@ -207,12 +189,11 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="AcademicCompassion">
-          {" "}
           <p className="InitiativeTitle">
-            Compassion in an Academic Setting
-          </p>{" "}
+            Compassion in an Academic Setting: Implementing Academic Resources
+            that Promote Student Health and Well-Being
+          </p>
           <p>
-            {" "}
             <ol>
               We are determined to implement resources that promote the overall
               health and well-being of our students in an intersectional manner.
@@ -230,15 +211,12 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="QTPOC">
-          {" "}
           <p className="InitiativeTitle">
-            QTPOC Community Based Resources{" "}
-          </p>{" "}
+            QTPOC Community Based Resources: Working with LGBTSS and LGBTQ+
+            Centered RSOs
+          </p>
           <p>
-            {" "}
-            <ol>Working with LGBTSS and LGBTQ+ Centered RSOs </ol>{" "}
             <ol>
-              {" "}
               This past year, we both had the chance to attend the Queer Trans
               People of Color Conference in Riverside, CA alongside
               @lmutranscendence. We learned so much during this conference and
@@ -255,18 +233,16 @@ export default function CampaignPage() {
               initiative to be open and accessible to all menstruating bodies,
               and hosting and collaborating with Transcendence to host a Trans
               Advocacy Week that encourages learning, dialogue, and awareness of
-              trans issues.{" "}
+              trans issues.
             </ol>
           </p>
         </a>
         <a id="Divestment">
-          <p className="InitiativeTitle">Divestment </p>{" "}
+          <p className="InitiativeTitle">
+            Divestment: Divesting from Fossil Fuels, while Honoring and
+            Uplifting Marginalized Voices
+          </p>
           <p>
-            {" "}
-            <ol>
-              Divesting from Fossil Fuels, while honoring and uplifting
-              marginalized voices{" "}
-            </ol>{" "}
             <ol>
               We have loved working on the DivestLMU campaign this past year. It
               has been amazing seeing students mobilize over a shared cause and
@@ -277,18 +253,16 @@ export default function CampaignPage() {
               communities who experience the brunt of climate change and who
               have been advocating for change but too often get silenced. We
               must critically look at how our Divestment Movement is being run
-            </ol>{" "}
+            </ol>
             <ol>Sunrise Movement, Green New Deal</ol>
           </p>
         </a>
         <a id="MenstrualProducts">
-          {" "}
           <p className="InitiativeTitle">
-            Continuing the Menstrual Products Initiative{" "}
-          </p>{" "}
+            Continuing the Menstrual Products Initiative: An Intersectional
+            Approach to Period Justice
+          </p>
           <p>
-            {" "}
-            <ol>An Intersectional Approach to Period Justice </ol>{" "}
             <ol>
               During her freshman year, Taylor saw that a lot of her fellow
               student athletes were often in need of emergency menstrual
@@ -308,23 +282,24 @@ export default function CampaignPage() {
               prioritize that dispensers are installed in gender neutral
               restrooms. This will ensure that broader initiatives surrounding
               Period Justice are not trans-exclusive and are accessible for all
-              people.{" "}
+              people.
             </ol>
           </p>
         </a>
         <a id="SchoolSpirit">
-          <p className="InitiativeTitle">Promoting School Spirit </p>{" "}
+          <p className="InitiativeTitle">
+            Promoting School Spirit: Incentivizing Support of Our Amazing
+            Student Athletes and Event-Programmers as a Means to Recharge
+          </p>
           <p>
-            {" "}
             <ol>
               Our student athletes are phenomenal examples of dedication, and
               they deserve student engagement as recognition of their daily
               commitment to serving LMU. Likewise, student orgs are constantly
               planning and executing impactful, affirming, and entertaining
               programming.
-            </ol>{" "}
+            </ol>
             <ol>
-              {" "}
               We’re excited to support our student athletes who train for hours
               a day to compete for this school. We are looking to start up a
               point system for game participation and attendance at student
@@ -345,10 +320,10 @@ export default function CampaignPage() {
         </a>
         <a id="OffCampusSupport">
           <p className="InitiativeTitle">
-            Better support for off campus students{" "}
-          </p>{" "}
+            Better Support for Off-Campus Students: Ensuring Our Lions Off the
+            Bluff Feel a Sense of Belonging
+          </p>
           <p>
-            {" "}
             <ol>
               As members of the current and past ASLMU administration and off
               campus students ourselves, we recognize the difficulties that
@@ -366,8 +341,9 @@ export default function CampaignPage() {
         </a>
         <a id="GSLMUFacultySenate">
           <p className="InitiativeTitle">
-            Improving our Relationship with GSLMU and Faculty Senate{" "}
-          </p>{" "}
+            Create a Consistent Network of Support: Improving our Relationship
+            with GSLMU and Faculty Senate
+          </p>
           <p>
             <ol>
               Student government at LMU and across the nation can often face
@@ -391,16 +367,16 @@ export default function CampaignPage() {
       </div>
       <div className="MissionSection">
         <h3 className="MissionTitle">
-          We believe in our <span style={{ color: "#f79051" }}>Mission...</span>{" "}
+          We believe in our <span style={{ color: "#f79051" }}>Mission...</span>
         </h3>
         <p className="SectionText">
           No student’s success should be hindered by racial bias, mental health,
           gender exclusivity, inaccessibility, or food insecurity. As members of
           the current ASLMU administration, we will use our experiential
           knowledge, privileges, approachability, and intersectional identities
-          to center the <span style={{ color: "#f79051" }}>student voice</span>{" "}
+          to center the <span style={{ color: "#f79051" }}>student voice</span>
           and continue making LMU a healthy and exciting place to call home. If
-          elected, we will{" "}
+          elected, we will
           <span style={{ color: "#f79051" }}> continue the dream </span> of past
           and current student leaders, while thinking forward and catering to
           the immediate needs of the LMU student body.
@@ -411,38 +387,37 @@ export default function CampaignPage() {
           We believe in <span style={{ color: "#f79051" }}>Healing...</span>
         </h3>
         <p className="SectionText">
-          There is a consistent need for opportunities to{" "}
+          There is a consistent need for opportunities to
           <span style={{ color: "#f79051" }}> heal and recharge </span> from the
           impact of academics and extracurricular involvements. We’ll
-          collaborate with SPS to{" "}
+          collaborate with SPS to
           <span style={{ color: "#f79051" }}>
-            {" "}
-            increase service accessibility{" "}
-          </span>{" "}
+            increase service accessibility
+          </span>
           and transparency in the way of an alternative appointment-booking
           system. We hope to provide resources for students struggling to
           communicate with professors about their mental health needs. Many
           students are overcommitted and often neglect de-stressing. We plan to
           implement a cumulative point system that rewards students for their
           ongoing attendance at sporting events and the student-organized
-          programming that brings life to the{" "}
+          programming that brings life to the
           <span style={{ color: "#f79051" }}> LMU experience. </span>
         </p>
       </div>
       <div className="CommunitySection">
         <h3 className="CommunityTitle">
-          We believe in <span style={{ color: "#f79051" }}>Community...</span>{" "}
+          We believe in <span style={{ color: "#f79051" }}>Community...</span>
         </h3>
         <p className="SectionText">
-          We'll continue our current hands-on work in getting{" "}
-          <span style={{ color: "#f79051" }}> menstrual hygiene products </span>{" "}
-          in more public restrooms and demanding LMU’s{" "}
+          We'll continue our current hands-on work in getting
+          <span style={{ color: "#f79051" }}> menstrual hygiene products </span>
+          in more public restrooms and demanding LMU’s
           <span style={{ color: "#f79051" }}>
-            divestment from fossil fuel companies{" "}
+            divestment from fossil fuel companies
           </span>
-          . We will also engage with organizations such as LGBTSS to improve{" "}
+          . We will also engage with organizations such as LGBTSS to improve
           <span style={{ color: "#f79051" }}>
-            resources for our trans students and staff{" "}
+            resources for our trans students and staff
           </span>
           . With support from grassroots student-media platforms, such as LMU
           Agency, we will advocate for continued action on these initiatives and
