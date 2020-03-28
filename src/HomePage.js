@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import logo from "./images/logo.png";
 import campaignposter from "./images/campaignposter.png";
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
         alt="campaignposter"
         style={{ marginTop: "-15%" }}></img>
       <h1 className="VoteTitle">vote Anya and Taylor April 1st - April 3rd</h1>
+      <img className="logo" src={logo}></img>
     </div>
   );
 }
