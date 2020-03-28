@@ -144,9 +144,12 @@ export default function COVIDPage() {
         <br /> So here we are, wherever that may be, just being. I invite you
         all to comment, write, talk, text, zoom, FT, whatever the fuck your
         feeling and take a moment with me to just be.
-        <br /> Here with you on this journey,
-        <br />
-        Taylor
+        <br />{" "}
+        <ol>
+          Here with you on this journey,
+          <br />
+          Taylor
+        </ol>
       </p>
     </div>
   );
