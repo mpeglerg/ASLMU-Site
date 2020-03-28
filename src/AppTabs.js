@@ -27,7 +27,7 @@ export default function AppTabs() {
             face="FuturaItalicBold"
             // style={{ backgroundColor: "#e8f6fa" }}
           >
-            <a className="HomeTab"> Home </a>
+            Home
           </font>
         </NavLink>
         <NavLink

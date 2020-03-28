@@ -18,9 +18,14 @@
 nav {
   width: 100vw;
   position: absolute;
-  font-size: calc(10px + (40 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(8px + (40 - 8) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 NavLink {
   padding-right: "20%";
 }
+/* 
+a:hover {
+  text-decoration: none;
+  color: black;
+} */

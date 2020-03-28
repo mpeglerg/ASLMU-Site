@@ -23,76 +23,80 @@ export default function CampaignPage() {
       <div className="InitiativeLeft">
         <p className="Intiative">
           {" "}
-          <a href="#COVIDResponse">COVID-19 Response </a>
+          <a href="#COVIDResponse">1. COVID-19 Response </a>
         </p>
         <p className="Intiative">
           {" "}
-          <a href="#Principles">Staying True to our Principles </a>
+          <a href="#Principles">2. Staying True to our Principles </a>
         </p>{" "}
         <p className="Intiative">
           {" "}
           <a href="#WorkWithRSO">
-            Working with CSA, EIS, Campus Ministry, and Social Justice Focused
-            RSOs
+            3. Working with CSA, EIS, Campus Ministry, and Social Justice
+            Focused RSOs
           </a>
         </p>{" "}
         <p className="Intiative">
           {" "}
-          <a href="#MentalHealth"> Mental Health Matters </a>
+          <a href="#MentalHealth"> 4. Mental Health Matters </a>
         </p>
         <p className="Intiative">
           {" "}
-          <a href="#StudentAthlete">Supporting our Student Athletes</a>
+          <a href="#StudentAthlete">5. Supporting our Student Athletes</a>
         </p>{" "}
       </div>
       <div className="InitiativeRight">
         <p className="Intiative">
           {" "}
-          <a href="#AcademicCompassion"> Compassion in an Academic Setting </a>
-        </p>{" "}
-        <p className="Intiative">
-          {" "}
-          <a href="#QTPOC">QTPOC Community Based Resources </a>
-        </p>{" "}
-        <p className="Intiative">
-          {" "}
-          <a href="#Divestment">Divestment </a>
-        </p>{" "}
-        <p className="Intiative">
-          {" "}
-          <a href="#MenstrualProducts">
-            Continuing the Menstrual Products Initiative{" "}
+          <a href="#AcademicCompassion">
+            6. Compassion in an Academic Setting{" "}
           </a>
         </p>{" "}
         <p className="Intiative">
           {" "}
-          <a href="#SchoolSpirit">Promoting School Spirit </a>
+          <a href="#QTPOC">7. QTPOC Community Based Resources </a>
         </p>{" "}
         <p className="Intiative">
-          <a href="#OffCampusSupport"> Support for Off-Campus Students </a>
+          {" "}
+          <a href="#Divestment">8. Divestment </a>
+        </p>{" "}
+        <p className="Intiative">
+          {" "}
+          <a href="#MenstrualProducts">
+            9. Continuing the Menstrual Products Initiative{" "}
+          </a>
+        </p>{" "}
+        <p className="Intiative">
+          {" "}
+          <a href="#SchoolSpirit">10. Promoting School Spirit </a>
+        </p>{" "}
+        <p className="Intiative">
+          <a href="#OffCampusSupport">11. Support for Off-Campus Students </a>
         </p>{" "}
       </div>
-      <div>
+      <div className="InitiativeText">
         <a id="COVIDResponse">
-          <p>Our COVID-19 Response</p>
+          <p className="InitiativeTitle">Our COVID-19 Response</p>
           <p>
-            In times of widespread emergency, LMU administration needs to make
-            informed decisions that center student need and voice. As COVID-19
-            responses develop, we encourage the university to acknowledge and
-            address student concerns about the academic, emotional, and physical
-            impacts of the pandemic. Staff and Faculty are actively working to
-            ensure student success in this time, but are in many senses lacking
-            full context of student need. As ASLMU is an imperative link between
-            students and administrative bodies, we hope to establish a standard
-            of student involvement in action plans and communications moving
-            forward. We believe that students must be involved in these
-            preliminary conversations. In order to provide adequate support and
-            resources, LMU’s emergency procedures need to articulate and
-            actualize student presence. Moving forward, we will work to update
-            LMU’s emergency procedures to efficiently and effectively
-            collaborate with students in future times of crisis. We also strive
-            to keep students informed on immediate resources to help us all move
-            forward:
+            <ol>
+              In times of widespread emergency, LMU administration needs to make
+              informed decisions that center student need and voice. As COVID-19
+              responses develop, we encourage the university to acknowledge and
+              address student concerns about the academic, emotional, and
+              physical impacts of the pandemic. Staff and Faculty are actively
+              working to ensure student success in this time, but are in many
+              senses lacking full context of student need. As ASLMU is an
+              imperative link between students and administrative bodies, we
+              hope to establish a standard of student involvement in action
+              plans and communications moving forward. We believe that students
+              must be involved in these preliminary conversations. In order to
+              provide adequate support and resources, LMU’s emergency procedures
+              need to articulate and actualize student presence. Moving forward,
+              we will work to update LMU’s emergency procedures to efficiently
+              and effectively collaborate with students in future times of
+              crisis. We also strive to keep students informed on immediate
+              resources to help us all move forward:
+            </ol>
             <ol>
               Emergency funding of up to $500: Email the Dean of Students Office
               at deanofstudents@lmu.edu (we recognize this could be a lot of
@@ -118,7 +122,7 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="Principles">
-          <p>Staying true to our Principles </p>{" "}
+          <p className="InitiativeTitle">Staying true to our Principles </p>{" "}
           <p>
             <ol>Taking a community driven approach </ol>{" "}
             <ol>
@@ -133,7 +137,7 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="WorkWithRSO">
-          <p>
+          <p className="InitiativeTitle">
             Savor the world, don’t save it:Working with CSA, EIS, Campus
             Ministry, and Social Justice Focused RSOs{" "}
           </p>{" "}
@@ -165,7 +169,7 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="MentalHealth">
-          <p>Your Mental Health Matters</p>{" "}
+          <p className="InitiativeTitle">Your Mental Health Matters</p>{" "}
           <p>
             {" "}
             <ol>
@@ -188,7 +192,10 @@ export default function CampaignPage() {
         </a>
         <a id="StudentAthlete">
           {" "}
-          <p> Supporting our student athletes</p>{" "}
+          <p className="InitiativeTitle">
+            {" "}
+            Supporting our student athletes
+          </p>{" "}
           <p>
             {" "}
             <ol>
@@ -212,7 +219,9 @@ export default function CampaignPage() {
         </a>
         <a id="AcademicCompassion">
           {" "}
-          <p>Compassion in an Academic Setting</p>{" "}
+          <p className="InitiativeTitle">
+            Compassion in an Academic Setting
+          </p>{" "}
           <p>
             {" "}
             <ol>
@@ -233,7 +242,9 @@ export default function CampaignPage() {
         </a>
         <a id="QTPOC">
           {" "}
-          <p>QTPOC Community Based Resources </p>{" "}
+          <p className="InitiativeTitle">
+            QTPOC Community Based Resources{" "}
+          </p>{" "}
           <p>
             {" "}
             <ol>Working with LGBTSS and LGBTQ+ Centered RSOs </ol>{" "}
@@ -260,7 +271,7 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="Divestment">
-          <p>Divestment </p>{" "}
+          <p className="InitiativeTitle">Divestment </p>{" "}
           <p>
             {" "}
             <ol>
@@ -283,7 +294,9 @@ export default function CampaignPage() {
         </a>
         <a id="MenstrualProducts">
           {" "}
-          <p>Continuing the Menstrual Products Initiative </p>{" "}
+          <p className="InitiativeTitle">
+            Continuing the Menstrual Products Initiative{" "}
+          </p>{" "}
           <p>
             {" "}
             <ol>An Intersectional Approach to Period Justice </ol>{" "}
@@ -311,7 +324,7 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="SchoolSpirit">
-          <p>Promoting School Spirit </p>{" "}
+          <p className="InitiativeTitle">Promoting School Spirit </p>{" "}
           <p>
             {" "}
             <ol>
@@ -342,7 +355,9 @@ export default function CampaignPage() {
           </p>
         </a>
         <a id="OffCampusSupport">
-          <p>Better support for off campus students </p>{" "}
+          <p className="InitiativeTitle">
+            Better support for off campus students{" "}
+          </p>{" "}
           <p>
             {" "}
             <ol>
@@ -363,10 +378,7 @@ export default function CampaignPage() {
       </div>
       <div className="MissionSection">
         <h3 className="MissionTitle">
-          <a id="facebook_ads_example">
-            We believe in our{" "}
-            <span style={{ color: "#f79051" }}>Mission...</span>{" "}
-          </a>
+          We believe in our <span style={{ color: "#f79051" }}>Mission...</span>{" "}
         </h3>
         <p className="SectionText">
           No student’s success should be hindered by racial bias, mental health,

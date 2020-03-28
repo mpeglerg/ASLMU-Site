@@ -21,7 +21,7 @@
   float: left;
   clear: left;
   padding-left: 15px;
-  border: 10px solid #f79051;
+  border: 2vw solid #f79051;
   border-radius: 4px;
   padding: 0px;
   margin-left: 5%;
@@ -29,7 +29,7 @@
 
 .AnyaTaylorHeadshot {
   /* margin-top: 20%; */
-  border: 10px solid #f79051;
+  border: 2vw solid #f79051;
   border-radius: 4px;
   padding: 0px;
   display: block;
@@ -43,7 +43,7 @@
   float: right;
   clear: right;
   padding-top: 30%;
-  border: 10px solid #f79051;
+  border: 2vw solid #f79051;
   border-radius: 4px;
   padding: 0px;
   margin-right: 5%;

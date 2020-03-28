@@ -3,11 +3,10 @@
   src: url("fonts/futura/FuturaBoldItalic.ttf");
 }
 
-.App {
-  background-color: #e8f6fa;
+/* .App {
   width: 100vw;
   height: fit-content;
-}
+} */
 
 .Header {
   color: #ffffff;
@@ -25,3 +24,17 @@ html {
   margin: 0;
   width: 100%; /* 100% of window with, so the body width of 60% will work as expected */
 /* } */
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  /* margin: 0 auto; */
+  padding: 0;
+  background-color: #e8f6fa;
+}
+.App {
+  background-color: #e8f6fa;
+  width: fit-content;
+  height: fit-content;
+}

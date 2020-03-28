@@ -72,19 +72,45 @@
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.Intiative {
-  color: #f79051;
-  font-family: "FuturaItalicBold";
-  text-align: center;
-  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
-}
-
 .InitiativeLeft {
   clear: left;
 }
 
 a {
   text-decoration: none;
+  /* color: #f79051; */
+}
+
+a:visited {
   color: #f79051;
+}
+
+a:hover {
+  text-decoration: none;
+  border: solid 2px #f79051;
+  padding: 1%;
+}
+
+.Intiative {
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+  margin-left: 5vw;
+  font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.InitiativeText {
+  color: black;
+  font-family: "LatoRegular";
+  margin-right: 10vw;
+  margin-left: 10vw;
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.InitiativeTitle {
+  color: #f79051;
+  font-family: "FuturaItalicBold";
+  font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }

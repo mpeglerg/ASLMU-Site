@@ -8,7 +8,7 @@ import "./AboutUsPage.css";
 export default function AboutUsPage() {
   return (
     <div>
-      <h1 className="MeetYourRepsTitle">Meet Your Representatives</h1>
+      <h1 className="MeetYourRepsTitle">Meet Your Reps</h1>
       <img
         className="AnyaHeadshot"
         src={AnyaHeadshot}
