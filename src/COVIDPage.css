@@ -20,4 +20,22 @@
   font-family: "LatoRegular";
   margin-left: 15vw;
   margin-right: 15vw;
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.SectionTitle {
+  font-family: "FuturaItalicBold";
+  font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  margin-top: 5vh;
+  padding-bottom: 5vh;
+}
+ol {
+  margin-left: 3%;
+}
+
+.FirstParagraph {
+  margin-bottom: 2%;
 }
