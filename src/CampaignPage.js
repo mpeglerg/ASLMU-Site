@@ -20,19 +20,20 @@ export default function CampaignPage() {
           </a>
         </p>
         <p className="Intiative">
-          <a href="#MentalHealth"> 4. Mental Health Matters </a>
+          <a href="#QTPOC">4. QTPOC Community Based Resources </a>
         </p>
         <p className="Intiative">
-          <a href="#StudentAthlete">5. Supporting our Student Athletes</a>
+          <a href="#MentalHealth"> 5. Mental Health Matters </a>
+        </p>
+        <p className="Intiative">
+          <a href="#StudentAthlete">6. Supporting our Student Athletes</a>
         </p>
       </div>
       <div className="InitiativeRight">
         <p className="Intiative">
-          <a href="#AcademicCompassion">6. Compassion in an Academic Setting</a>
+          <a href="#AcademicCompassion">7. Compassion in an Academic Setting</a>
         </p>
-        <p className="Intiative">
-          <a href="#QTPOC">7. QTPOC Community Based Resources </a>
-        </p>
+
         <p className="Intiative">
           <a href="#Divestment">8. Divestment </a>
         </p>
@@ -129,15 +130,50 @@ export default function CampaignPage() {
               that too often people of marginalized communities are forced to
               expend emotional labor, as they are put into a position as
               teachers of social justice issues. Leading in light of Greg Boyle
-              of @HomeboyIndustries’ wise words, “savor the world, don’t save
-              it,” we must take the time to unpack, unlearn, and dismantle our
-              practices. Specifically, we would like to support and uplift the
-              Justice League, so that we can create a space for all social
-              justice oriented clubs to come together, build coalition, and work
-              towards equity and justice. Currently, we are a part of groups
-              within the Justice League, such as @lmuteam, and see the potential
-              that organized coalition building has on encouraging critical
-              student mobilization and sparking movements.
+              of{" "}
+              <a href="https://www.instagram.com/homeboyindustries/">
+                {" "}
+                @HomeboyIndustries{" "}
+              </a>
+              wise words, “savor the world, don’t save it,” we must take the
+              time to unpack, unlearn, and dismantle our practices.
+              Specifically, we would like to support and uplift the Justice
+              League, so that we can create a space for all social justice
+              oriented clubs to come together, build coalition, and work towards
+              equity and justice. Currently, we are a part of groups within the
+              Justice League, such as{" "}
+              <a href="https://www.instagram.com/lmu.team/">@lmuteam </a>, and
+              see the potential that organized coalition building has on
+              encouraging critical student mobilization and sparking movements.
+            </ol>
+          </p>
+        </a>
+        <a id="QTPOC">
+          <p className="InitiativeTitle">
+            QTPOC Community Based Resources: Working with LGBTSS and LGBTQ+
+            Centered RSOs
+          </p>
+          <p>
+            <ol>
+              This past year, we both had the chance to attend the Queer Trans
+              People of Color Conference in Riverside, CA alongside
+              <a href="https://www.instagram.com/transcendencelmu/">
+                @lmutranscendence{" "}
+              </a>
+              . We learned so much during this conference and felt so happy to
+              be in community with LMU and California students. Here, we learned
+              of many ways other schools are accommodating their students and
+              staff. This year is LGBTSS’s 10 year anniversary and we’re excited
+              to continue collaborating with the and other college campuses to
+              improve our home here on the bluff. Our initiatives moving forward
+              to support our LGBTQ students include creating a student and staff
+              task force to implement a research-based resource kit to support
+              our trans or transitioning students, staff, faculty, and
+              employees, whose experiences often go unnoticed on the bluff,
+              expanding the menstrual hygiene initiative to be open and
+              accessible to all menstruating bodies, and hosting and
+              collaborating with Transcendence to host a Trans Advocacy Week
+              that encourages learning, dialogue, and awareness of trans issues.
             </ol>
           </p>
         </a>
@@ -210,33 +246,7 @@ export default function CampaignPage() {
             </ol>
           </p>
         </a>
-        <a id="QTPOC">
-          <p className="InitiativeTitle">
-            QTPOC Community Based Resources: Working with LGBTSS and LGBTQ+
-            Centered RSOs
-          </p>
-          <p>
-            <ol>
-              This past year, we both had the chance to attend the Queer Trans
-              People of Color Conference in Riverside, CA alongside
-              @lmutranscendence. We learned so much during this conference and
-              felt so happy to be in community with LMU and California students.
-              Here, we learned of many ways other schools are accommodating
-              their students and staff. This year is LGBTSS’s 10 year
-              anniversary and we’re excited to continue collaborating with the
-              and other college campuses to improve our home here on the bluff.
-              Our initiatives moving forward to support our LGBTQ students
-              include creating a student and staff task force to implement a
-              research-based resource kit to support our trans or transitioning
-              students, staff, faculty, and employees, whose experiences often
-              go unnoticed on the bluff, expanding the menstrual hygiene
-              initiative to be open and accessible to all menstruating bodies,
-              and hosting and collaborating with Transcendence to host a Trans
-              Advocacy Week that encourages learning, dialogue, and awareness of
-              trans issues.
-            </ol>
-          </p>
-        </a>
+
         <a id="Divestment">
           <p className="InitiativeTitle">
             Divestment: Divesting from Fossil Fuels, while Honoring and
@@ -244,15 +254,17 @@ export default function CampaignPage() {
           </p>
           <p>
             <ol>
-              We have loved working on the DivestLMU campaign this past year. It
-              has been amazing seeing students mobilize over a shared cause and
-              we’re excited to continue the work. We strive to see LMU agree to
-              divest from fossil fuel companies by 2025. It is crucial for our
-              campus to understand that this initiative is not just for our
-              students but we must recognize the predominantly black and brown
-              communities who experience the brunt of climate change and who
-              have been advocating for change but too often get silenced. We
-              must critically look at how our Divestment Movement is being run
+              We have loved working on the{" "}
+              <a href="https://www.instagram.com/divestlmu/">DivestLMU </a>
+              campaign this past year. It has been amazing seeing students
+              mobilize over a shared cause and we’re excited to continue the
+              work. We strive to see LMU agree to divest from fossil fuel
+              companies by 2025. It is crucial for our campus to understand that
+              this initiative is not just for our students but we must recognize
+              the predominantly black and brown communities who experience the
+              brunt of climate change and who have been advocating for change
+              but too often get silenced. We must critically look at how our
+              Divestment Movement is being run
             </ol>
             <ol>Sunrise Movement, Green New Deal</ol>
           </p>
@@ -419,10 +431,11 @@ export default function CampaignPage() {
           <span style={{ color: "#f79051" }}>
             resources for our trans students and staff
           </span>
-          . With support from grassroots student-media platforms, such as LMU
-          Agency, we will advocate for continued action on these initiatives and
-          develop the campus understanding of intersectional issues that center
-          the experiences of communities of color. We’ll collaborate with
+          . With support from grassroots student-media platforms, such as{" "}
+          <a href="https://www.instagram.com/agencylmu/">LMU Agency </a>, we
+          will advocate for continued action on these initiatives and develop
+          the campus understanding of intersectional issues that center the
+          experiences of communities of color. We’ll collaborate with
           departments including CSA and EIS to encourage campus-wide reflection
           on our mission, sometimes savioristic practices, and the ways that we
           can come together to improve our Lion community and beyond.
