@@ -6,20 +6,6 @@ export default function CampaignPage() {
   return (
     <div className="Campaign">
       <h2 className="PlatformTitle">Our Platform</h2>
-      {/* <Grid stackable centered padding columns={3}> */}
-      {/* <Grid stackable centered padding columns={3} rows={3}>
-        <Grid.Column> Test 1 </Grid.Column>
-        <Grid.Column> Test 2</Grid.Column>
-        <Grid.Column> Test 3</Grid.Column>
-        <Grid.Column> Test 3</Grid.Column>
-
-        <Grid.Row>Test 4</Grid.Row>
-        <br></br>
-        <Grid.Row>Test 5</Grid.Row>
-        <br></br>
-
-        <Grid.Row>Test 5</Grid.Row>
-      </Grid> */}
       <div className="InitiativeLeft">
         <p className="Intiative">
           {" "}
@@ -73,6 +59,9 @@ export default function CampaignPage() {
         <p className="Intiative">
           <a href="#OffCampusSupport">11. Support for Off-Campus Students </a>
         </p>{" "}
+        <p className="Intiative">
+          <a href="#GSLMUFacultySenate">12. GSLMU and Faculty Senate</a>
+        </p>
       </div>
       <div className="InitiativeText">
         <a id="COVIDResponse">
@@ -372,6 +361,30 @@ export default function CampaignPage() {
               our students in a non-invasive way that does not further trauma,
               we also plan to disperse Household Essentials Kits to students
               every month, no questions asked.
+            </ol>
+          </p>
+        </a>
+        <a id="GSLMUFacultySenate">
+          <p className="InitiativeTitle">
+            Improving our Relationship with GSLMU and Faculty Senate{" "}
+          </p>{" "}
+          <p>
+            <ol>
+              Student government at LMU and across the nation can often face
+              challenges surrounding productivity. This can be due to little
+              incentive to get work done, being overwhelmed, a lack of guidance,
+              and also a lack of consistency, as the positions change so
+              frequently. ASLMU is an amazing space but faces these problems
+              too. We must improve the ASLMU relationship with strong campus
+              departments and organizations in order to create a structure that
+              supports the work of ASLMU year after year. We plan to prioritize
+              our relationship with our GSLMU and Faculty Senate. We plan to
+              require that the ASLMU president or vice president attend these
+              meetings in order to stay informed, get support, and continue
+              collaboration. We hope to create a consistent and expansive
+              network of support outside of our constantly changing ASLMU, so
+              that our work and the goals of past, present, and future ASLMUers
+              will be fulfilled.
             </ol>
           </p>
         </a>

@@ -21,7 +21,7 @@ export default function AboutUsPage() {
           Anya is a Women’s and Gender Studies Major and African American
           Studies Minor in the Class of 2021. Throughout their time at LMU they
           have taken on numerous leadership positions including 2019-2020 ASLMU
-          Senator, Sursum Corda Service Organization VP of Mission and Social
+          Secretary, Sursum Corda Service Organization VP of Mission and Social
           Justice, and Circulations Manager at the William H. Hannon Library. In
           all of their activities, Anya has lead with intention and care, and
           intends to continue to do so if elected 2020-2021 ASLMU President. To
