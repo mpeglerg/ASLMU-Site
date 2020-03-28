@@ -114,7 +114,10 @@ export default function GalleryPage() {
   return (
     <div>
       <h1 className="GalleryTitle">Gallery</h1>
-      <ImageGallery items={galleryImages} autoPlay={true}></ImageGallery>
+      <ImageGallery
+        items={galleryImages}
+        autoPlay={true}
+        className="Gallery"></ImageGallery>
     </div>
   );
 }

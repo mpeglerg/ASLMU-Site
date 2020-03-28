@@ -11,26 +11,32 @@
 .ContactUsTitle {
   font-family: "FuturaItalicBold";
   color: #f79051;
-  float: right;
-  margin-right: 15%;
+  /* float: right; */
+  text-align: center;
+  /* margin-right: 15%; */
   font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
   border-bottom: solid 4px #f79051;
 }
 
 .ContactUsTextSection {
-  clear: right;
+  /* clear: right; */
+  text-align: center;
   font-family: "LatoRegular";
-  margin-right: 10%;
-  margin-left: 50%;
+  margin-right: 21vw;
+  margin-left: 21vw;
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .GoogleForm {
-  width: 40vw;
+  width: 90vw;
   display: block;
   height: 60vw;
   background-color: transparent;
-  float: left;
-  margin-left: 5vw;
+  /* float: left; */
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5vw;
+  justify-content: center;
 }
