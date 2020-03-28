@@ -57,45 +57,45 @@ export default function CampaignPage() {
       <div className="InitiativeText">
         <a id="COVIDResponse">
           <p className="InitiativeTitle">Our COVID-19 Response</p>
-          <p>
-            <ol>
-              In times of widespread emergency, LMU administration needs to make
-              informed decisions that center student need and voice. As COVID-19
-              responses develop, we encourage the university to acknowledge and
-              address student concerns about the academic, emotional, and
-              physical impacts of the pandemic. Staff and Faculty are actively
-              working to ensure student success in this time, but are in many
-              senses lacking full context of student need. As ASLMU is an
-              imperative link between students and administrative bodies, we
-              hope to establish a standard of student involvement in action
-              plans and communications moving forward. We believe that students
-              must be involved in these preliminary conversations. In order to
-              provide adequate support and resources, LMU’s emergency procedures
-              need to articulate and actualize student presence. Moving forward,
-              we will work to update LMU’s emergency procedures to efficiently
-              and effectively collaborate with students in future times of
-              crisis. We also strive to keep students informed on immediate
-              resources to help us all move forward:
-            </ol>
-            <ol>
-              Emergency funding of up to $500: Email the Dean of Students Office
-              at deanofstudents@lmu.edu (we recognize this could be a lot of
-              emotional labor, so know that we’re standing in solidarity with
-              you and are here for you)
-            </ol>
-            <ol>Community of Care: 310.338.3756 or communityofcare@lmu.edu.</ol>
-            <ol>
-              SPS video or phone services to new and existing clients Business:
-              310.338.2868 After business hours: 310.338.2868
-            </ol>
-            <ol>Therapy Assist On-line (TAO): 24/7 services at lmu.edu/tao.</ol>
-            <ol>
-              Reach out to advisers, professors, and other staff/faculty
-              members: ex. Ethnic and Intercultural Services has directors who
-              are ready to help
-            </ol>
-          </p>
-        </a>
+        </a>{" "}
+        <p>
+          <ol>
+            In times of widespread emergency, LMU administration needs to make
+            informed decisions that center student need and voice. As COVID-19
+            responses develop, we encourage the university to acknowledge and
+            address student concerns about the academic, emotional, and physical
+            impacts of the pandemic. Staff and Faculty are actively working to
+            ensure student success in this time, but are in many senses lacking
+            full context of student need. As ASLMU is an imperative link between
+            students and administrative bodies, we hope to establish a standard
+            of student involvement in action plans and communications moving
+            forward. We believe that students must be involved in these
+            preliminary conversations. In order to provide adequate support and
+            resources, LMU’s emergency procedures need to articulate and
+            actualize student presence. Moving forward, we will work to update
+            LMU’s emergency procedures to efficiently and effectively
+            collaborate with students in future times of crisis. We also strive
+            to keep students informed on immediate resources to help us all move
+            forward:
+          </ol>
+          <ol>
+            Emergency funding of up to $500: Email the Dean of Students Office
+            at deanofstudents@lmu.edu (we recognize this could be a lot of
+            emotional labor, so know that we’re standing in solidarity with you
+            and are here for you)
+          </ol>
+          <ol>Community of Care: 310.338.3756 or communityofcare@lmu.edu.</ol>
+          <ol>
+            SPS video or phone services to new and existing clients Business:
+            310.338.2868 After business hours: 310.338.2868
+          </ol>
+          <ol>Therapy Assist On-line (TAO): 24/7 services at lmu.edu/tao.</ol>
+          <ol>
+            Reach out to advisers, professors, and other staff/faculty members:
+            ex. Ethnic and Intercultural Services has directors who are ready to
+            help
+          </ol>
+        </p>
         <a id="Principles">
           <p className="InitiativeTitle">
             Staying True to Our Principles: Taking a community driven approach
@@ -249,7 +249,6 @@ export default function CampaignPage() {
             </ol>
           </p>
         </a>
-
         <a id="Divestment">
           <p className="InitiativeTitle">
             Divestment: Divesting from Fossil Fuels, while Honoring and
