@@ -19,6 +19,7 @@
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
   max-width: 100vw;
   border-bottom: solid 4px #f79051;
+  margin-top: 0;
 }
 
 .LilaEndorsement {
