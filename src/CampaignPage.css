@@ -115,12 +115,12 @@ a:hover {
 
 .Intiative {
   color: #f79051;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     rgba(255, 0, 0, 0),
     rgba(232, 246, 250, 0.7),
     rgba(255, 0, 0, 0)
-  );
+  ); */
   /* background-color: rgba(232, 246, 250, 0.5); */
   font-family: "FuturaItalicBold";
   margin-left: 1vw;
