@@ -126,7 +126,7 @@ a:hover {
   margin-left: 1vw;
   margin-right: 1vw;
 
-  font-size: calc(10px + (30 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(15px + (37 - 15) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 
