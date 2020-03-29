@@ -8,51 +8,72 @@ export default function CampaignPage() {
       <h2 className="PlatformTitle">
         Our <br /> Platform
       </h2>
-      <div className="InitiativeLeft">
-        <p className="Intiative">
-          <a href="#COVIDResponse">1. COVID-19 Response </a>
-        </p>
-        <p className="Intiative">
-          <a href="#Principles">2. Staying True to our Principles </a>
-        </p>
-        <p className="Intiative">
-          <a href="#WorkWithRSO">
-            3. Working with CSA, EIS, Campus Ministry, and Social Justice
-            Focused RSOs
-          </a>
-        </p>
-        <p className="Intiative">
-          <a href="#QTPOC">4. QTPOC Community Based Resources </a>
-        </p>
-        <p className="Intiative">
-          <a href="#MentalHealth"> 5. Mental Health Matters </a>
-        </p>
-        <p className="Intiative">
-          <a href="#StudentAthlete">6. Supporting our Student Athletes</a>
-        </p>
-      </div>
-      <div className="InitiativeRight">
-        <p className="Intiative">
-          <a href="#AcademicCompassion">7. Compassion in an Academic Setting</a>
-        </p>
-
-        <p className="Intiative">
-          <a href="#Divestment">8. Divestment </a>
-        </p>
-        <p className="Intiative">
-          <a href="#MenstrualProducts">
-            9. Continuing the Menstrual Products Initiative
-          </a>
-        </p>
-        <p className="Intiative">
-          <a href="#SchoolSpirit">10. Promoting School Spirit </a>
-        </p>
-        <p className="Intiative">
-          <a href="#OffCampusSupport">11. Support for Off-Campus Students </a>
-        </p>
-        <p className="Intiative">
-          <a href="#GSLMUFacultySenate">12. GSLMU and Faculty Senate</a>
-        </p>
+      <div className="InitiativeBlurb">
+        <div className="COVIDResponse">
+          <p className="Intiative">
+            <a href="#COVIDResponse">COVID-19 Response </a>
+          </p>
+        </div>
+        <div className="Principles">
+          <p className="Intiative">
+            <a href="#Principles">Staying True to our Principles </a>
+          </p>
+        </div>
+        <div className="WorkWithRSO">
+          <p className="Intiative">
+            <a href="#WorkWithRSO">
+              Working with CSA, EIS, Campus Ministry, and Social Justice Focused
+              RSOs
+            </a>
+          </p>
+        </div>
+        <div className="QTPOC">
+          <p className="Intiative">
+            <a href="#QTPOC">QTPOC Community Based Resources </a>
+          </p>
+        </div>
+        <div className="MentalHealth">
+          <p className="Intiative">
+            <a href="#MentalHealth"> Mental Health Matters </a>
+          </p>
+        </div>
+        <div className="StudentAthlete">
+          <p className="Intiative">
+            <a href="#StudentAthlete">Supporting our Student Athletes</a>
+          </p>
+        </div>
+        <div className="AcademicCompassion">
+          <p className="Intiative">
+            <a href="#AcademicCompassion">Compassion in an Academic Setting</a>
+          </p>
+        </div>
+        <div className="Divestment">
+          <p className="Intiative">
+            <a href="#Divestment">Divestment </a>
+          </p>
+        </div>
+        <div className="MenstrualProducts">
+          <p className="Intiative">
+            <a href="#MenstrualProducts">
+              Continuing the Menstrual Products Initiative
+            </a>
+          </p>
+        </div>
+        <div className="SchoolSpirit">
+          <p className="Intiative">
+            <a href="#SchoolSpirit">Promoting School Spirit </a>
+          </p>
+        </div>
+        <div className="OffCampusSupport">
+          <p className="Intiative">
+            <a href="#OffCampusSupport">Support for Off-Campus Students </a>
+          </p>
+        </div>
+        <div className="GSLMUFacultySenate">
+          <p className="Intiative">
+            <a href="#GSLMUFacultySenate">GSLMU and Faculty Senate</a>
+          </p>
+        </div>
       </div>
       <div className="InitiativeText">
         <a id="COVIDResponse">
@@ -241,7 +262,7 @@ export default function CampaignPage() {
             LMUCares on creating templates for students to advocate for their
             mental and physical health needs to professors. Phenomenal students
             at this university come from many marginalized backgrounds. We must
-            talk about race and inequity surrounding the black and brown
+            talk about race and inequity surrounding the Black and Brown
             achievement gap, gender, and socio-economic privilege as we strive
             to promote understanding, compassion, and respect for all students
             in the academic setting.
@@ -262,7 +283,7 @@ export default function CampaignPage() {
             We strive to see LMU agree to divest from fossil fuel companies by
             2025. It is crucial for our campus to understand that this
             initiative is not just for our students but we must recognize the
-            predominantly black and brown communities who experience the brunt
+            predominantly Black and Brown communities who experience the brunt
             of climate change and who have been advocating for change but too
             often get silenced. We must critically look at how our Divestment
             Movement is being run before engaging in a call for policy change.
@@ -315,14 +336,18 @@ export default function CampaignPage() {
             start up a point system for game participation and attendance at
             student programming across campus. Those who go to the most games
             and events, get the most points… and the top point scores get… free
-            stufffffff!!!! Our students do this work to bring life to the LMU
-            experience, and that should not go unnoticed or unappreciated. We
-            believe that student engagement is a cornerstone of a strong
-            community on our campus. With that being said, we recognize that
-            attendance at these events is a significant sacrifice of time that
-            should not go unrewarded. With the academic rigor of LMU, we feel
-            that it is of utmost importance that we are allowed to take time and
-            recharge at events that are simply for enjoyment and community.
+            stufffffff!!!! We will also support and promote ASLMU initiatives in
+            development, such as LMU Day. Taylor was a part of the creation of
+            this event her freshmen year, continued it this past year, and is
+            excited to watch it grow in the coming years. Our students do this
+            work to bring life to the LMU experience, and that should not go
+            unnoticed or unappreciated. We believe that student engagement is a
+            cornerstone of a strong community on our campus. With that being
+            said, we recognize that attendance at these events is a significant
+            sacrifice of time that should not go unrewarded. With the academic
+            rigor of LMU, we feel that it is of utmost importance that we are
+            allowed to take time and recharge at events that are simply for
+            enjoyment and community.
           </ol>
         </p>
         <a id="OffCampusSupport">

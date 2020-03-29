@@ -18,7 +18,6 @@ import GalleryImage14 from "./images/GalleryImage14.JPG";
 import GalleryImage15 from "./images/GalleryImage15.jpg";
 import GalleryImage16 from "./images/GalleryImage16.jpg";
 import GalleryImage17 from "./images/GalleryImage17.jpg";
-import GalleryImage18 from "./images/GalleryImage18.JPG";
 import GalleryImage19 from "./images/GalleryImage19.JPG";
 import GalleryImage20 from "./images/GalleryImage20.JPG";
 import GalleryImage21 from "./images/GalleryImage21.JPG";
@@ -88,10 +87,6 @@ const galleryImages = [
   {
     original: GalleryImage17,
     thumbnail: GalleryImage17
-  },
-  {
-    original: GalleryImage18,
-    thumbnail: GalleryImage18
   },
   {
     original: GalleryImage19,

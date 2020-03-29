@@ -75,8 +75,15 @@
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.InitiativeLeft {
+.InitiativeBlurb {
+  background-image: url("./images/LMU_BirdsEye.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
   clear: left;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 a {
@@ -94,15 +101,26 @@ a:link {
 
 a:hover {
   text-decoration: none;
-  border: solid 2px #f79051;
+  /* border-top: solid 2px #f79051;
+  border-bottom: solid 2px #f79051; */
+  color: blue;
   padding: 1%;
 }
 
 .Intiative {
   color: #f79051;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(232, 246, 250, 0.75),
+    rgba(255, 0, 0, 0)
+  );
+  /* background-color: rgba(232, 246, 250, 0.5); */
   font-family: "FuturaItalicBold";
   margin-left: 5vw;
-  font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
+  margin-right: 5vw;
+
+  font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -120,4 +138,55 @@ a:hover {
   font-family: "FuturaItalicBold";
   font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.COVIDResponse {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.Principles {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.WorkWithRSO {
+  grid-row: 1;
+  grid-column: 3;
+}
+.QTPOC {
+  grid-row: 2;
+  grid-column: 1;
+}
+.MentalHealth {
+  grid-row: 2;
+  grid-column: 2;
+}
+.StudentAthlete {
+  grid-row: 2;
+  grid-column: 3;
+}
+.AcademicCompassion {
+  grid-row: 3;
+  grid-column: 1;
+}
+.Divestment {
+  grid-row: 3;
+  grid-column: 2;
+}
+.MenstrualProducts {
+  grid-row: 3;
+  grid-column: 3;
+}
+.SchoolSpirit {
+  grid-row: 4;
+  grid-column: 1;
+}
+.OffCampusSupport {
+  grid-row: 4;
+  grid-column: 2;
+}
+.GSLMUFacultySenate {
+  grid-row: 4;
+  grid-column: 3;
 }
