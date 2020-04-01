@@ -362,10 +362,10 @@ export default function CampaignPage() {
             campus students ourselves, we recognize the difficulties that
             commuter and off campus students have in attending this university.
             Our university benefits must be accessible to off campus students.
-            We want to collaborate with RHA to extend the HBO-Go services to off
-            campus students. We also plan to increase the amount of campus
-            shuttles to include travel to Playa Del Rey, Marina Del Rey, and
-            Venice. As our goals include supporting our students in a
+            We want to collaborate with RHA to extend the video streaming
+            services to off campus students. We also plan to increase the amount
+            of campus shuttles to include travel to Playa Del Rey, Marina Del
+            Rey, and Venice. As our goals include supporting our students in a
             non-invasive way that does not further trauma, we also plan to
             disperse Household Essentials Kits to students every month, no
             questions asked.
